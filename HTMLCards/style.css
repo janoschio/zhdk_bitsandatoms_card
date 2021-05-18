@@ -14,7 +14,7 @@ body {
   grid-template-areas: "bild" "text" "eigenschaften";
   border-radius: 20px;
   background: white;
-  font-family: roboto;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
 }
 
