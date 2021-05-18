@@ -18,6 +18,7 @@ body {
   text-align: center;
   filter: drop-shadow(5px 8px 5px rgb(170, 163, 155));
 }
+
 .bild {
   grid-area: bild;
   background: url("https://cdn.unitycms.io/image/2WGPHiR8Kvr9cB1iT9j8AU.gif");
@@ -43,11 +44,13 @@ body {
   font-weight: 500;
   transition: all 0.05s linear;
 }
+
 .text p {
   color: grey;
   font-size: 20px;
   font-weight: 300;
 }
+
 .text h2 {
   margin-top: 10px;
   font-size: 34px;
@@ -96,6 +99,7 @@ body {
   border-bottom-left-radius: 20px;
   background: rgb(41, 151, 129);
 }
+
 .rechts:hover {
   border-bottom-right-radius: 20px;
   background: rgb(41, 151, 129);
