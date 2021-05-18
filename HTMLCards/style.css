@@ -1,0 +1,82 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: grey;
+}
+
+.karte {
+  display: grid;
+  grid-template-columns: 430px;
+  grid-template-rows: 260px 290px 115px;
+  grid-template-areas: "bild" "text" "eigenschaften";
+  border-radius: 20px;
+  background: white;
+  font-family: roboto;
+  text-align: center;
+}
+
+.bild {
+  grid-area: bild;
+  background: url("https://cdn.unitycms.io/image/2WGPHiR8Kvr9cB1iT9j8AU.gif");
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-size: cover;
+}
+
+.text {
+  grid-area: text;
+  margin: 35px;
+}
+
+.text .typ {
+  color: rgb(181, 211, 29);
+  font-size:18px;
+}
+.text p {
+  color: grey;
+  font-size:20px;
+  font-weight: 300;
+}
+.text h2 {
+  margin-top:10px;
+  font-size:34px;
+}
+
+.eigenschaften {
+  grid-area: eigenschaften; 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: rgb(150, 181,175 );
+}
+
+.eigenschaften .eigenschaft {
+  padding: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+.eigenschaften .preis {
+  font-size:28px;
+  font-weight: 500;
+}
+
+.eigenschaften .beschreibung {
+  font-size:20px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.mitte {
+  border-left: 2px solid rgb(255, 255, 255);
+  border-right: 2px solid rgb(255, 255, 255);
+  /* background: rgb(132, 42, 49) */
+}
