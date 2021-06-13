@@ -35,15 +35,8 @@ body {
 .text .typ {
   color: rgb(181, 211, 29);
   font-size: 18px;
-  transition: all 0.05s linear;
 }
 
-.text .typ:hover {
-  color: rgb(181, 211, 29);
-  font-size: 36px;
-  font-weight: 500;
-  transition: all 0.05s linear;
-}
 
 .text p {
   color: grey;
